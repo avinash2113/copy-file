@@ -1,0 +1,11 @@
+import shutil
+
+
+def main():
+    # Copy file to another directory
+    newPath = shutil.copy('/Users/avinashranjan/Downloads/avinash_resume.doc', '/Users/avinashranjan/Downloads/test1')
+
+    print("Path of copied file : ", newPath)
+
+if __name__ == '__main__':
+    main()
